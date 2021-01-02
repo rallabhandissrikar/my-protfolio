@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Redressed&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/imagehover.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+	<link rel="shortcut icon" href="images.png" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>im srikar</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+	<div class="home">
+		<h1>I'm Srikar</h1>
+		<p>I AM A JUNIOR SOFTWARE DEVELOPER. I LEARN CODING AT WHITEHAT JR. I HAD INTREST ON CODING FROM THE AGE OF 10</p>
+	</div>
+
+	<div class="lang">
+		<h1>The languages that I know</h1>
+		<table>
+			<tr>
+				<td>
+					<figure class="imghvr-shutter-in-out-diag-1">
+						<img src="pyth.png">
+						<figcaption>
+							<h4 onclick="window.open('https://www.python.org/')">This Is Python, world's most used language</h4>
+						</figcaption>
+					</figure>
+				</td>
+
+				<td>
+					<figure class="imghvr-shutter-in-out-diag-1">
+						<img src="js.jpeg">
+						<figcaption>
+							<h4 onclick="window.open('https://www.javascript.com/')">This Is javascript, most used language in webDevloping</h4>
+						</figcaption>
+					</figure>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<figure class="imghvr-shutter-in-out-diag-1">
+						<img src="rect.png">
+						<figcaption>
+							<h4 onclick="window.open('https://reactnative.dev/')">This Is ReacNative, turns a webapp into mobile app</h4>
+						</figcaption>
+					</figure>
+				</td>
+				<td>
+					<figure class="imghvr-shutter-in-out-diag-1">
+						<img src="html.png">
+						<figcaption>
+							<h4 onclick="window.open('https://html.com/')">This Is HTML, it is the main language in webDevloping</h4>
+						</figcaption>
+					</figure>
+				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+	</div>
+
+	<div class="MVJ">
+		<h1>MY Vision</h1>
+		<p>I want to be a multi-talented human with vast set of experiences. I strongly believe that skills can be taught, but personality is inherent. I want to keep learning, continue challenging myself, and do intresing things that matter.</p>
+		<p>I like to develope expertise in a number of areas over the course of my life and career.</p>
+		<p>I define myself by the work i want to do. I prefer to explore more in ther feild of the Soft Develoment</p>
+
+
+		<br>
+	</div>
+
+	<div class="MSK">
+		<h1>MY SKILLS</h1>
+		<table>
+			<tr>
+				<td>
+					<h2>Studies :</h2>
+				</td>
+				<td>
+					<div class="prg1">
+						<div>
+							<h3 style="margin-left : 40px;">90%</h3>
+						</div>
+					</div>
+					</td>
+			</tr>
+
+
+			<tr>
+				<td>
+					<h2>Coding :</h2>
+				</td>
+				<td>
+					<div class="prg2">
+						<div>
+							<h3 style="margin-left : 40px;">70%</h3>
+						</div>
+					</div>
+					</td>
+			</tr>
+
+			<tr>
+				<td>
+					<h2>Other :</h2>
+				</td>
+				<td>
+					<div class="prg3">
+						<div>
+							<h3 style="margin-left : 40px;">80%</h3>
+						</div>
+					</div>
+					</td>
+			</tr>
+		</table>
+	</div>
+
+	 
+
+	<div id="prg"></div>
+	<div id="scroll"></div>
+	<script type="text/javascript">
+		let progress = document.getElementById("prg");
+		let tlheight = document.body.scrollHeight - window.innerHeight;
+		window.onscroll = function() {
+			let height = (window.pageYOffset / tlheight) * 100;
+			progress.style.height = height + "%";
+		}
+	</script>
+
+
+
+
+</body>
+
+</html>
